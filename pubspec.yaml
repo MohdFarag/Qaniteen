@@ -63,3 +63,4 @@ flutter:
   assets:
     - .env
     - assets/launcher_icon/
+    - assets/splash
