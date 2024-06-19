@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCswa4kTjhu6QCB1SDTtDMMHiVRZiPJ8qo',
-    appId: '1:737022106780:android:cc5addd7be3e4cec846159',
+    appId: '1:737022106780:android:7838094ff7a6d389846159',
     messagingSenderId: '737022106780',
     projectId: 'qaniteen-1b02e',
     storageBucket: 'qaniteen-1b02e.appspot.com',
@@ -59,10 +59,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDMJPLlrd1YjHxDJ1ayrch9ALDqX7EBRJg',
-    appId: '1:737022106780:ios:0c15dc4922879203846159',
+    appId: '1:737022106780:ios:316e922688476afa846159',
     messagingSenderId: '737022106780',
     projectId: 'qaniteen-1b02e',
     storageBucket: 'qaniteen-1b02e.appspot.com',
-    iosBundleId: 'com.example.app',
+    iosBundleId: 'com.sunnah.qaniteen',
   );
+
 }

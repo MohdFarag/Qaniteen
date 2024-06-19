@@ -7,28 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:737022106780:android:7952533bdc49fc53846159",
+        "mobilesdk_app_id": "1:737022106780:android:7838094ff7a6d389846159",
         "android_client_info": {
-          "package_name": "com.example.qaniteen"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCswa4kTjhu6QCB1SDTtDMMHiVRZiPJ8qo"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:737022106780:android:cc5addd7be3e4cec846159",
-        "android_client_info": {
-          "package_name": "com.khl.qaniteen"
+          "package_name": "com.sunnah.qaniteen"
         }
       },
       "oauth_client": [],
