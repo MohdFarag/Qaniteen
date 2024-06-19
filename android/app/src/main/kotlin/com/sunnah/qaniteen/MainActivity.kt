@@ -1,4 +1,4 @@
-package com.khl.qaniteen
+package com.sunnah.qaniteen
 
 import io.flutter.embedding.android.FlutterActivity
 
