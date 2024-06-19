@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737022106780",
+    "project_id": "qaniteen-1b02e",
+    "storage_bucket": "qaniteen-1b02e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737022106780:android:7838094ff7a6d389846159",
+        "android_client_info": {
+          "package_name": "com.sunnah.qaniteen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCswa4kTjhu6QCB1SDTtDMMHiVRZiPJ8qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
