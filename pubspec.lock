@@ -624,14 +624,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.1"
-  grouped_list:
-    dependency: "direct main"
-    description:
-      name: grouped_list
-      sha256: fef106470186081c32636aa055492eee7fc7fe8bf0921a48d31ded24821af19f
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.1.2"
   html:
     dependency: transitive
     description:
@@ -792,14 +784,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
-  modal_bottom_sheet:
-    dependency: "direct main"
-    description:
-      name: modal_bottom_sheet
-      sha256: eac66ef8cb0461bf069a38c5eb0fa728cee525a531a8304bd3f7b2185407c67e
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.0"
   nested:
     dependency: transitive
     description:
@@ -833,7 +817,7 @@ packages:
     source: hosted
     version: "2.1.0"
   path:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: path
       sha256: "087ce49c3f0dc39180befefc60fdb4acd8f8620e5682fe2476afd0b3688bb4af"
