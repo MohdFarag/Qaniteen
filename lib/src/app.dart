@@ -7,22 +7,18 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Retrieves the default theme for the platform
+    //TextTheme textTheme = Theme.of(context).textTheme;
+
     // Use with Google Fonts package to use downloadable fonts
     TextTheme textTheme =
         createTextTheme(context, "IBM Plex Sans Arabic", "Readex Pro");
+
     MaterialTheme theme = MaterialTheme(textTheme);
 
     return MaterialApp(
       home: const Scaffold(
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text('com.sunnah.qaniteen'),
-              Text('كوم.سنة.قانتين'),
-            ],
-          ),
-        ),
+        body: Center(child: Text('data | محمد')),
       ),
       theme: theme.light(),
       darkTheme: theme.dark(),
