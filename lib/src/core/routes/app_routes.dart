@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 part 'app_routes.gr.dart';
 
-@AutoRouterConfig(replaceInRouteName: 'Screen,Route')
+@AutoRouterConfig(replaceInRouteName: 'Page,Route')
 class AppRouter extends _$AppRouter {
 
  @override
