@@ -9,5 +9,5 @@ void main() async {
   await init();
 
   // Run the app
-  runApp(const MainApp());
+  runApp(MainApp());
 }

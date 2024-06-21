@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'core/routes/app_routes.dart';
 import 'core/theme/material_theme.dart';
 import 'core/theme/text_theme.dart';
 
 class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+  MainApp({super.key});
+
+  final _appRouter = AppRouter();
 
   @override
   Widget build(BuildContext context) {
@@ -11,15 +14,16 @@ class MainApp extends StatelessWidget {
     //TextTheme textTheme = Theme.of(context).textTheme;
 
     // Use with Google Fonts package to use downloadable fonts
-    TextTheme textTheme =
-        createTextTheme(context, "IBM Plex Sans Arabic", "Readex Pro");
+    TextTheme textTheme = createTextTheme(
+      context,
+      "IBM Plex Sans Arabic",
+      "Readex Pro",
+    );
 
     MaterialTheme theme = MaterialTheme(textTheme);
 
-    return MaterialApp(
-      home: const Scaffold(
-        body: Center(child: Text('data | محمد')),
-      ),
+    return MaterialApp.router(
+      routerConfig: _appRouter.config(),
       theme: theme.light(),
       darkTheme: theme.dark(),
       themeMode: ThemeMode.system,
