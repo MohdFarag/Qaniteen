@@ -1,7 +1,10 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/current_prayer_widget.dart';
+import '../widgets/current_location.dart';
+import '../widgets/current_prayer.dart';
+import '../widgets/hadith_text.dart';
+import '../widgets/prayer_timings.dart';
 
 @RoutePage()
 class HomePage extends StatelessWidget {
@@ -10,11 +13,16 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          CurrentPrayerWidget(),
-        ],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            CurrentLocation(),
+            CurrentPrayer(),
+            PrayerTimings(),
+            HadithText(),
+          ],
+        ),
       ),
     );
   }
